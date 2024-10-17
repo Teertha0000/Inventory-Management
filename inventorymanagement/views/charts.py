@@ -25,7 +25,7 @@ class StatsState(rx.State):
     device_data = []
     yearly_device_data = []
     entries: List["Table_data"] = []
-
+    
 
     def toggle_areachart(self):
         self.area_toggle = not self.area_toggle
